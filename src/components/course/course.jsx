@@ -1,6 +1,6 @@
 
 
-const Course = ({ course }) => {
+const Course = ({ course, selectCourse }) => {
     const { image, title, price, description, credits } = course;
     return (
         <div>
@@ -16,7 +16,7 @@ const Course = ({ course }) => {
                         <p>Credits : {credits}</p>
                     </div>
                     <div className="">
-                        <button className="btn btn-primary w-full">Select</button>
+                        <button onClick={() => selectCourse(course)} className="btn btn-primary w-full">Select</button>
                     </div>
                 </div>
             </div>
