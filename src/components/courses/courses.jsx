@@ -22,7 +22,7 @@ const Courses = () => {
     const selectCourse = (course) => {
         const search = purchaseCourse.find(x => x.id === course.id);
         if(search !== undefined) return
-        if(credit <= 0) return 
+        if(credit < course.credits) return 
         const totalPrice = price + course.price;
         const remainingCredit = credit - course.credits;
         const hours = totalHours + course.credits; 
