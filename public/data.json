@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Web Development Bootcamp",
+        "description": "A comprehensive course covering HTML, CSS, JavaScript, and frameworks like React and Node.js.",
+        "credits": 4,
+        "price": "$199.99",
+        "image": "/src/assets/image/Rectangle 2-1.png"
+    },
+    {
+        "id": 2,
+        "title": "Data Science Fundamentals",
+        "description": "Learn the basics of data analysis, visualization, and machine learning using Python and libraries like Pandas and Matplotlib.",
+        "credits": 3,
+        "price": "$149.99",
+        "image": "/src/assets/image/Rectangle 2-2.png"
+    },
+    {
+        "id": 3,
+        "title": "Digital Marketing Essentials",
+        "description": "Discover key concepts in digital marketing, including SEO, SEM, social media marketing, and email marketing strategies.",
+        "credits": 2,
+        "price": "$99.99",
+        "image": "/src/assets/image/Rectangle 2-3.png"
+    },
+    {
+        "id": 4,
+        "title": "Mobile App Development",
+        "description": "Build mobile apps for iOS and Android platforms using popular frameworks like Flutter and React Native.",
+        "credits": 3,
+        "price": "$179.99",
+        "image": "/src/assets/image/Rectangle 2-4.png"
+    },
+    {
+        "id": 5,
+        "title": "Graphic Design Masterclass",
+        "description": "Learn graphic design principles, tools like Adobe Photoshop and Illustrator, and create stunning visuals.",
+        "credits": 2,
+        "price": "$129.99",
+        "image": "/src/assets/image/Rectangle 2-5.png"
+    },
+    {
+        "id": 6,
+        "title": "Business Analytics",
+        "description": "Master data-driven decision-making processes, statistical analysis, and predictive modeling techniques.",
+        "credits": 3,
+        "price": "$159.99",
+        "image": "/src/assets/image/Rectangle 2-6.png"
+    },
+    {
+        "id": 7,
+        "title": "Artificial Intelligence Basics",
+        "description": "Explore the fundamentals of AI, including neural networks, machine learning algorithms, and natural language processing.",
+        "credits": 4,
+        "price": "$219.99",
+        "image": "/src/assets/image/Rectangle 2.png"
+    },
+    {
+        "id": 8,
+        "title": "UI/UX Design Fundamentals",
+        "description": "Learn user interface and user experience design principles, wireframing, prototyping, and usability testing.",
+        "credits": 2,
+        "price": "$129.99",
+        "image": "/src/assets/image/Rectangle 3-1.png"
+    },
+    {
+        "id": 9,
+        "title": "Project Management Professional (PMP)",
+        "description": "Prepare for the PMP certification exam, covering project management processes, tools, and best practices.",
+        "credits": 3,
+        "price": "$189.99",
+        "image": "/src/assets/image/Rectangle 3.png"
+    }
+]
