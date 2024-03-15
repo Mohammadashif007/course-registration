@@ -7,6 +7,7 @@ const Courses = () => {
     const [purchaseCourse, setPurchaseCourse] = useState([]);
     const [price , setPrice ] = useState(0);
     const [credit, setCredit] = useState(20);
+    const [totalHours, setTotalHours] = useState(0);
 
     const loadData = async () => {
         const res = await fetch("data.json");
@@ -24,9 +25,12 @@ const Courses = () => {
         if(credit <= 0) return 
         const totalPrice = price + course.price;
         const remainingCredit = credit - course.credits;
+        const hours = totalHours + course.credits; 
         setPurchaseCourse([...purchaseCourse, course]);
         setPrice(totalPrice);
         setCredit(remainingCredit);
+        setTotalHours(hours)
+
     };
 
     console.log(purchaseCourse);
@@ -57,7 +61,7 @@ const Courses = () => {
                         </div>
                     ))}
                     <p className="border-y-2 py-3 my-3">
-                        Total Credit Hours :{" "}
+                        Total Credit Hours :{totalHours}
                     </p>
                     <p>Total Price :  {price}USD</p>
                 </div>
